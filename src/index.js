@@ -1,0 +1,1 @@
+console.log(`your computer has virus`)
