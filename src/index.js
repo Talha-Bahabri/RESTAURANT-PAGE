@@ -8,6 +8,9 @@ import _ from 'lodash';
    // Lodash, now imported by this script
    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('hello');
+  
+
+  console.log(`444444444444444444444444444`)
 
    return element;
  }
@@ -16,25 +19,44 @@ import _ from 'lodash';
  
 
 
+function menu() {
+  //the main div 
+  const mainDiv = document.createElement('div');
+  
+  const div1 = document.createElement('div');
+  const testPar1 = document.createElement('p');
+  testPar1.textContent = `here is a text, above it a food pic`;
+  div1.appendChild(testPar1)
  
- // import _ from 'lodash';
-// import './style.css'
-
-// // console.log(`your computer has virus`)
-// console.log(` @@ new watch menue`)
-
-// const hehe = document.getElementById("hehe");
-
-// // const divHeader = getElementById('header');
-// // const aha = document.createElement('p')
-// aha.classList.add('testing')
 
 
-// hehe.classList.add(`testing`)
-// // hehe.textContent = `AHAHAH`
 
-// divHeader.appendChild(aha)
+  const div2 = document.createElement('div');
+  const testPar2 = document.createElement('p');
+  testPar2.textContent = `second para`;
+  div2.appendChild(testPar2)
+
+  const div3 = document.createElement('div');
+  const testPar3 = document.createElement('p');
+  testPar3.textContent = `third perhaps ?`;
+  div3.appendChild(testPar3)
 
 
-// console.log(`444444444444444444444444444`)
+  const div4 = document.createElement('div');
+  const testPar4 = document.createElement('p');
+  testPar4.textContent = `last one`;
+  div4.appendChild(testPar4)
 
+
+
+  mainDiv.appendChild(div1)
+  mainDiv.appendChild(div2)
+  mainDiv.appendChild(div3)
+  mainDiv.appendChild(div4)
+  return mainDiv;
+
+}
+  
+const bodyDiv = document.getElementById('body')
+bodyDiv.appendChild(menu())
+ 
