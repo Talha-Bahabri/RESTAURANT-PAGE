@@ -24,28 +24,32 @@ function menu() {
   const mainDiv = document.createElement('div');
   
   const div1 = document.createElement('div');
-  const testPar1 = document.createElement('p');
-  testPar1.textContent = `here is a text, above it a food pic`;
-  div1.appendChild(testPar1)
+  const Par1 = document.createElement('p');
+  const image1 = document.createElement('img');
+  image1.src = `img1.jpg`
+
+  Par1.textContent = `here is a text, above it a food pic`;
+  div1.appendChild(image1)
+  div1.appendChild(Par1)
  
 
 
 
   const div2 = document.createElement('div');
-  const testPar2 = document.createElement('p');
-  testPar2.textContent = `second para`;
-  div2.appendChild(testPar2)
+  const Par2 = document.createElement('p');
+  Par2.textContent = `second para`;
+  div2.appendChild(Par2)
 
   const div3 = document.createElement('div');
-  const testPar3 = document.createElement('p');
-  testPar3.textContent = `third perhaps ?`;
-  div3.appendChild(testPar3)
+  const Par3 = document.createElement('p');
+  Par3.textContent = `third perhaps ?`;
+  div3.appendChild(Par3)
 
 
   const div4 = document.createElement('div');
-  const testPar4 = document.createElement('p');
-  testPar4.textContent = `last one`;
-  div4.appendChild(testPar4)
+  const Par4 = document.createElement('p');
+  Par4.textContent = `last one`;
+  div4.appendChild(Par4)
 
 
 
@@ -56,7 +60,8 @@ function menu() {
   return mainDiv;
 
 }
-  
+
+  //here it selecets the "Body" part to put the elemnts in it
 const bodyDiv = document.getElementById('body')
 bodyDiv.appendChild(menu())
  
