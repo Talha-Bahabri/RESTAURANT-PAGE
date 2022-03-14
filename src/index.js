@@ -25,10 +25,12 @@ function menu() {
   
   const div1 = document.createElement('div');
   const Par1 = document.createElement('p');
-  const image1 = document.createElement('img');
-  image1.src = `img1.jpg`
-
   Par1.textContent = `here is a text, above it a food pic`;
+  
+  const image1 = document.createElement('img');
+  image1.classList.add(`foodImg`)
+  image1.src = "img/img1.jpg"
+
   div1.appendChild(image1)
   div1.appendChild(Par1)
  
