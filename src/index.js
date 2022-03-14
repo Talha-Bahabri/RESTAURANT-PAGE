@@ -36,6 +36,7 @@ function menu() {
   mainDiv.appendChild(food2())
   mainDiv.appendChild(food3())
   mainDiv.appendChild(food4())
+
   return mainDiv;
 
 }
@@ -43,8 +44,10 @@ function menu() {
 //this will be testing for a cleaner code, putting the foods in a seperate functions 
 function food1() {
   const div1 = document.createElement('div');
+  div1.classList.add('foodDiv')
+
   const Par1 = document.createElement('p');
-  Par1.textContent = `here is a text, above it a food picffffffffffffffffffff`;
+  Par1.textContent = `By the promised and forgotten land it cames with  the elden ring hopfullly will try it one day`;
   Par1.classList.add(`foodText`)
 
   const image1 = document.createElement('img');
@@ -61,8 +64,10 @@ function food1() {
 
 function food2() {
   const div2 = document.createElement('div');
+  div2.classList.add('foodDiv')
+
   const Par2 = document.createElement('p');
-  Par2.textContent = `second food `;
+  Par2.textContent = `the famous dark sign in the DS, to which you lose everything for a change of returning safely `;
   Par2.classList.add(`foodText`)
 
   const image2 = document.createElement('img');
@@ -79,6 +84,7 @@ function food2() {
 
 function food3() {
   const div3 = document.createElement('div');
+  div3.classList.add('foodDiv')
   const Par3 = document.createElement('p');
   Par3.textContent = `this one is the third one ,,  `;
   Par3.classList.add(`foodText`)
@@ -97,6 +103,7 @@ function food3() {
 
 function food4() {
   const div4 = document.createElement('div');
+  div4.classList.add('foodDiv')
   const Par4 = document.createElement('p');
   Par4.textContent = `the last one ,,  `;
   Par4.classList.add(`foodText`)
