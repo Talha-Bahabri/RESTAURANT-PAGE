@@ -14,12 +14,36 @@
   }
 
   #logo {
+      display: flex;
       font-size: 25px;
       font-weight: bold;
       margin: 5px;
       margin-left: 20px;
+      margin-right: 200px;
 
   }
+  #buttonsDiv {
+      background-color: rgb(92, 92, 60);
+        display: flex; 
+        align-items: flex-end; 
+
+        /* justify-content: center; */
+        padding: 10px;      
+        
+    }
+    .pages-button{
+        background-color: rgb(20, 162, 250);
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+        color: #F9FAF8;
+        margin: 3px;
+    
+    }
+
 
   .foodImg {
       height: 100px;
@@ -48,3 +72,4 @@
         margin-right: 10%;
 
   }
+  
