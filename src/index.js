@@ -32,8 +32,12 @@ chefsButton.addEventListener("click" , function(e) {
 });
 
 
+
 function chefs() {
-  
+
+  const mainDiv = document.createElement('div');
+   mainDiv.classList.add(`menuDiv`)
+
 
 }
 
