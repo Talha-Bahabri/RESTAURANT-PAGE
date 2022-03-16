@@ -23,6 +23,21 @@ menuButton.addEventListener("click" , function(e) {
 
 });
  
+
+const chefsButton = document.getElementById('chefs');
+chefsButton.addEventListener("click" , function(e) {
+  removePage()
+ bodyDiv.appendChild(chefs());
+
+});
+
+
+function chefs() {
+  
+
+}
+
+
  
 
 
