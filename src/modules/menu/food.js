@@ -2,7 +2,7 @@
 export default function menu() {
   //the main div 
   const mainDiv = document.createElement('div');
-   mainDiv.classList.add(`mainDiv`)
+   mainDiv.classList.add(`menuDiv`)
   
   console.log(`this is inside the menu`)
 
