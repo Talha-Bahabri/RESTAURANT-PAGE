@@ -3,16 +3,7 @@ export default function menu() {
   //the main div 
   const mainDiv = document.createElement('div');
    mainDiv.classList.add(`menuDiv`)
-  
-  console.log(`this is inside the menu`)
-
-  const div4 = document.createElement('div');
-  const Par4 = document.createElement('p');
-  Par4.textContent = `last one`;
-  div4.appendChild(Par4)
-
-
-
+    
   mainDiv.appendChild(food1()) 
   mainDiv.appendChild(food2())
   mainDiv.appendChild(food3())
