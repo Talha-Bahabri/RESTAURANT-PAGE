@@ -11,6 +11,7 @@ aboutButton.addEventListener("click" , function(e) {
 
   console.log('about presssssessss')
 
+  about();
 // bodyDiv.appendChild(about());
 
 });
@@ -27,8 +28,10 @@ function about () {
   const mainDiv = document.createElement('div');
   mainDiv.classList.add('aboutDiv')
 
-  const aboutPara = document.createElement('p')
-  
-
+  const aboutPara = document.createElement('p') 
+  console.log(`removed ?`)
+  while(bodyDiv.lastChild) {
+    bodyDiv.lastChild.remove();
+  }
 
  }
