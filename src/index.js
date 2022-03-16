@@ -2,9 +2,9 @@ import _ from 'lodash';
 import  menu  from './modules/menu/food'
 
  
-  //here it selecets the "Body" part to put the elemnts in it
-const bodyDiv = document.getElementById('body')
-bodyDiv.appendChild(menu())
+//   //here it selecets the "Body" part to put the elemnts in it
+// const bodyDiv = document.getElementById('body')
+// bodyDiv.appendChild(menu())
  
 
 
