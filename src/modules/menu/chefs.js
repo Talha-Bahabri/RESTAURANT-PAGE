@@ -6,8 +6,7 @@ export default function chefs() {
   
      mainDiv.appendChild(chef1())
      mainDiv.appendChild(chef2())
-     mainDiv.appendChild(chef3())
-    //  mainDiv.appendChild(chef4())
+     mainDiv.appendChild(chef3()) 
      return mainDiv;
      
   }

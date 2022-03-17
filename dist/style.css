@@ -67,19 +67,23 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
 
-        margin-top: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
+      margin-top: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
 
   }
 
   .aboutDiv {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
     background-color: green;
     border-radius: 20px;
-    margin: 10%;
-     padding-left: 10%;
+
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
