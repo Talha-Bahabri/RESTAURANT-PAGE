@@ -1,12 +1,4 @@
-.testing {
-    color: red;
-    font-size: larger;
-}
-
-.hello {
-    color: red;
-  }
-
+ 
   #header {
       background-color: blue;
       display: flex;
@@ -15,15 +7,14 @@
 
   #logo {
       display: flex;
-      font-size: 25px;
+      font-size: 50px;
       font-weight: bold;
       margin: 5px;
       margin-left: 20px;
       margin-right: 200px;
 
   }
-  #buttonsDiv {
-      background-color: rgb(92, 92, 60);
+  #buttonsDiv { 
         display: flex; 
         align-items: flex-end; 
 
@@ -89,6 +80,7 @@
     padding-bottom: 5%;
     justify-content: center;
     align-items: center; 
+
   }
   
 
