@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import  menu  from './modules/menu/food'
 import  about  from './modules/menu/about'
+import  chefs  from './modules/menu/chefs'
 
     //here it selecets the "Body" part to put the elemnts in it
 const bodyDiv = document.getElementById('body')
@@ -33,13 +34,6 @@ chefsButton.addEventListener("click" , function(e) {
 
 
 
-function chefs() {
-
-  const mainDiv = document.createElement('div');
-   mainDiv.classList.add(`menuDiv`)
-
-
-}
 
 
  
