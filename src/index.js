@@ -7,6 +7,7 @@ import  chefs  from './modules/menu/chefs'
 const bodyDiv = document.getElementById('body')
 
 
+bodyDiv.appendChild(about());
 
 const aboutButton = document.getElementById('about');
 aboutButton.addEventListener("click" , function(e) {
@@ -31,13 +32,6 @@ chefsButton.addEventListener("click" , function(e) {
  bodyDiv.appendChild(chefs());
 
 });
-
-
-
-
-
- 
-
 
  function removePage() {
   while(bodyDiv.lastChild) {
