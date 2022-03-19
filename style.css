@@ -1,4 +1,6 @@
  
+ 
+  
   #header {
       background-color: blue;
       display: flex;
@@ -19,7 +21,7 @@
         align-items: flex-end; 
 
         /* justify-content: center; */
-        padding: 10px;      
+        padding: 10px;    
         
     }
     .pages-button{
@@ -40,11 +42,14 @@
       height: 100px;
       width: 150px;
       border-radius: 10px; 
+      animation: ElementsFadeIn 2s;
   }
 
   .foodText{
       font: bold;
       font-size: 25px;
+      animation: ElementsFadeIn 3s;
+      
   }
   .foodDiv   {  
       background-color: red;
@@ -61,6 +66,7 @@
       margin-top: 20px;
       margin-left: 10%;
       margin-right: 10%;
+      animation: PagesFadeIn 0.5s
 
   }
 
@@ -80,7 +86,7 @@
     padding-bottom: 5%;
     justify-content: center;
     align-items: center; 
-    animation: fadein 2s
+    animation: PagesFadeIn 0.5s
 
   }
   
@@ -114,6 +120,7 @@
           margin-top: 20px;
           margin-left: 10%;
           margin-right: 10%;
+          animation: PagesFadeIn 0.5s
 
     } 
 
@@ -149,3 +156,9 @@
         from { opacity: 0; }
         to   { opacity: 1; }
     }
+
+    @keyframes ElementsFadeIn {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
