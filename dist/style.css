@@ -59,8 +59,8 @@
 
 
   .foodImg {
-      height: 100px;
-      width: 150px;
+      height: 150px;
+      width:200px;
       border-radius: 10px; 
       animation: ElementsFadeIn 3s;
   }
@@ -71,7 +71,7 @@
       animation: ElementsFadeIn 1.5s;
       
   }
-  .foodDiv   {  
+  .foodDiv   {   
     background-color: rgba(250, 131, 20, 0.185);
       padding-left: 10%;
       padding-right: 10%;

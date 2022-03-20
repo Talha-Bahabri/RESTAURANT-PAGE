@@ -82,7 +82,7 @@ function food2() {
   
     const image4 = document.createElement('img');
     image4.classList.add(`foodImg`)
-    image4.src = "img/img4.png"
+    image4.src = "img/img4.jpg"
   
     div4.appendChild(image4)
     div4.appendChild(Par4)
