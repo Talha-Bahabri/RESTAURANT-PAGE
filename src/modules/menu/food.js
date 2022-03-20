@@ -18,7 +18,7 @@ export default function menu() {
     div1.classList.add('foodDiv')
   
     const Par1 = document.createElement('p');
-    Par1.textContent = `By the promised and forgotten land it cames with  the elden ring hopfullly will try it one day`;
+    Par1.textContent = `A smiley, not so smelly fish presented with our secret sauce.`;
     Par1.classList.add(`foodText`)
   
     const image1 = document.createElement('img');
@@ -39,7 +39,7 @@ function food2() {
     div2.classList.add('foodDiv')
   
     const Par2 = document.createElement('p');
-    Par2.textContent = `the famous dark sign in the DS, to which you lose everything for a change of returning safely `;
+    Par2.textContent = `Our special dish, Roasted duck, a dish that can only be cooked by one of the best: Mister Duck the Duke  `;
     Par2.classList.add(`foodText`)
   
     const image2 = document.createElement('img');
