@@ -67,7 +67,7 @@
 
   .foodText{
       font: bold;
-      font-size: 25px; 
+      font-size: 35px; 
       animation: ElementsFadeIn 1.5s;
       
   }
@@ -124,7 +124,7 @@
   }
   .aboutText{
     font: bold;
-    font-size: 25px;
+    font-size: 35px;
     animation: ElementsFadeIn 1.5s;
 }
 
