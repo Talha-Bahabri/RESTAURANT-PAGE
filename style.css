@@ -67,7 +67,7 @@
 
   .foodText{
       font: bold;
-      font-size: 25px;
+      font-size: 25px; 
       animation: ElementsFadeIn 1.5s;
       
   }
@@ -137,14 +137,13 @@
     }
 
     .chefsDiv { 
-      
+      align-items: center;
         display: grid;
         grid-template-columns:  1fr;
           margin-top: 20px;
           margin-left: 10%;
           margin-right: 10%;
-          animation: PagesFadeIn 0.5s
-
+          animation: PagesFadeIn 0.5s; 
     } 
 
     .chefSingleDiv {
@@ -161,6 +160,8 @@
     }
 
     .chefsText {
+        justify-content: center;
+        align-items: center;
         font: bold;
       font-size: 25px;
       animation: ElementsFadeIn 1.5s;
