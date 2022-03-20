@@ -16,7 +16,8 @@ export default function chefs() {
     div1.classList.add('chefSingleDiv')
 
      const chefPar1 = document.createElement('p');
-     chefPar1.textContent = `Our Mewost amazing chef , CATchip`;
+     chefPar1.textContent = `Our Mewost amazing chef , CATchip
+     Fish is his specialty, Deliver the most delicious Fish you would even need to taste`;
      chefPar1.classList.add(`chefsText`)
    
      const chefImg1 = document.createElement('img');
@@ -35,7 +36,9 @@ export default function chefs() {
     div2.classList.add('chefSingleDiv')
 
      const chefPar2 = document.createElement('p');
-     chefPar2.textContent = `Our Mewost amazing chef , CATchip`;
+     chefPar2.textContent = `Duck the Duke is experienced in the classic around his area, Which would suprise you once you 
+     try it. The Secret ingredient ?maybe Love. Or Duck meat.
+     `;
      chefPar2.classList.add(`chefsText`)
    
      const chefImg2 = document.createElement('img');
@@ -54,7 +57,8 @@ export default function chefs() {
     div3.classList.add('chefSingleDiv')
 
      const chefPar3 = document.createElement('p');
-     chefPar3.textContent = `Our Mewost amazing chef , CATchip`;
+     chefPar3.textContent = `A mysterious chef who appeared one day and started to work with us, Has the element of danger around him and his food
+     Yet it taste wonderful, which all that matter`;
      chefPar3.classList.add(`chefsText`)
    
      const chefImg3 = document.createElement('img');
