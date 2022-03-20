@@ -58,7 +58,7 @@ function food2() {
     const div3 = document.createElement('div');
     div3.classList.add('foodDiv')
     const Par3 = document.createElement('p');
-    Par3.textContent = `this one is the third one ,,  `;
+    Par3.textContent = `One classic dish that can be eaten with the family, extra cheesy if you like`;
     Par3.classList.add(`foodText`)
   
     const image3 = document.createElement('img');
@@ -77,7 +77,7 @@ function food2() {
     const div4 = document.createElement('div');
     div4.classList.add('foodDiv')
     const Par4 = document.createElement('p');
-    Par4.textContent = `the last one ,,  `;
+    Par4.textContent = `A simple yet wonderful food to share with others`;
     Par4.classList.add(`foodText`)
   
     const image4 = document.createElement('img');
